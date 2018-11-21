@@ -4,7 +4,7 @@ email: lingboz2015@gmail.com
 description: 
   A guide to getting started with Jekyll.
 baseurl: ""
-url: "http://localhost:4000"
+url: "https://lingbozhang.github.io"
 github_username: lingbozhang
 # Build Settings
 sass:
