@@ -1,11 +1,12 @@
 # Site Settings
-title: Lingbo Zhang's Website 
-email: lingboz2015@gmail.com
-description: 
+title: Start Jekyll
+email: taniarascia@gmail.com
+description: >
   A guide to getting started with Jekyll.
 baseurl: ""
 url: "http://localhost:4000"
-github_username: lingbozhang
+twitter_username: taniarascia
+github_username:  taniarascia
 # Build Settings
 sass:
   sass_dir: _sass
