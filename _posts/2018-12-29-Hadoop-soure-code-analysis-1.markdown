@@ -6,7 +6,10 @@ categories: Hadoop
 ---
 ## Setup a cluster with docker and run Hadoop on it 
 Please refer [hadoop-cluster-docker].
-
+### get into hadoop master container
+{% highlight bash %}
+sudo docker exec -it hadoop-master bash
+{% endhighlight %}
 
 
 
