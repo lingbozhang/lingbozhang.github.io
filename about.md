@@ -3,18 +3,7 @@ title: "About"
 ---
 
 ### About Me
+Lingbo Zhang is a PhD graduate from Department of Mechanical Engineering at MIT under the supervision of Prof. Klaus-Jürgen Bathe. Now he works as a core database system developer at InterSystems Corporation. His research focuses on computational mechanics and high performance computing. Lingbo is an experienced software engineer that has been developing high performance PDE and ODE solvers for over 6 years and also an active researcher with multiple publications in computational methods for physics. He was a visiting research collaborator at Princeton and obtained his master degree from Tsinghua University, and Bachelor’s degree from Zhejiang University. Lingbo has great interest in high performance computing and distributed systems.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-### My life
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
- - Dictumst
- - Vestibulum
- - Rhoncus
- - Pellentesque
- 
-Maecenas accumsan lacus vel facilisis volutpat est velit. Arcu bibendum at varius vel. Aliquam etiam erat velit scelerisque in dictum non consectetur a. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc. 
-
-Ultrices dui sapien eget mi proin sed. Dignissim sodales ut eu sem.
