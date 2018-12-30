@@ -2,7 +2,7 @@
 layout: home
 title: "Archive"
 ---
-* Step 1: Write your script with vim:
+* Step 1: Write a script with your favorite editor (e.g. vim):
 {% highlight bash %}
 #!/bin/bash
 find . -name "*.h" -o -name "*.c" -o -name "*.cc"  -o -name "*.java"> cscope.files
@@ -13,5 +13,5 @@ ctags -R
 {% highlight bash %}
 chmod 755 <script_file_name>
 {% endhighlight %}
-* Step 3: Add script file path to .zshrc
-
+* Step 3: Add script file path to .zshrc (export PATH=$PATH:script_directory)
+* [Reference](http://linuxcommand.org/lc3_wss0010.php) 
