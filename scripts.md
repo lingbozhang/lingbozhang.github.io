@@ -2,7 +2,7 @@
 layout: home
 title: "Archive"
 ---
-* [Writing scripts on Mac](/scripts.md)
+* [Writing scripts on Mac](
 
 <a href="/">Professor Klaus-Jürgen Bathe</a>
 [Reference](http://linuxcommand.org/lc3_wss0010.php)
