@@ -1,8 +1,25 @@
 ---
-title:  "Object formatting examples"
-categories: example
+title:  "HDFS source code analysis - 1"
+categories: Distributed Systems
 mathjax: true
 ---
+## Preface
+Nowadays, big data and cloud computing are two most important high-tech tends. As data storage and computation power requirements increase every year, the vertical scaling techniques will be the most effective solution. Fortunately, it is still an ative area far from mature, which gives us great opportutnities in both research and industry. As a young researcher and engineer, it is very benificiary to study and make contributions. The HDFS source code analysis project is my first step in these areas. 
+
+Why HDFS? There are great number of open-source techniques online, such as Map Reduce, Spark, Hbase, etc. I choose HDFS not only become it is simpler than other distrituted projects, but also the ditributed file system will be the foundation. Previously, Map Reduce is the major trend in cloud computing, nowadays, we find that Spark draws great attentions. In the future, new technologies will be proposed that will beat the Spark. However, I believe the distributed fille system will be the foundation for all these techniques. Therefore to study and understand it will be very fruitful.
+
+The major objective of the HDFS source code analysis project is to help myself learn and understand the HDFS source code. Finally, I hope I am able to write the distributed file system. In the future, if I have a plan, all these materials will be revised to help other people learn and understand the HDFS source code.
+
+##
+
+
+
+
+
+
+
+
+
 
 Embed code by putting `{{ "{% highlight language " }}%}` `{{ "{% endhighlight " }}%}` blocks around it.
 
