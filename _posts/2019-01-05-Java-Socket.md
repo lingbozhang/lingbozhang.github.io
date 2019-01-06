@@ -1,30 +1,38 @@
 ---
-title:  "A simple Client-Server program using Java Socket"
+title:  "A simple client-server program using Java Socket"
 categories: [Distributed Systems]
 tags: [Socket]
 mathjax: true
 ---
+<a name="introduction"></a>
+## Definition of Socket in Java
+A socket is **one endpoint** of a two-way communication link between two programs running on the network. A socket is bound to a port number so that the TCP layer can identify the application that data is destined to be sent to.
+<a name="prerequisites"></a>
 ## Prerequisites
 * [Homebrew](https://docs.brew.sh/Installation.html)
-* Java6 or above (you can download java with following commands. note //... are comments and should not put into the terminal)
+<a name="java"></a>
+* **Java6 or above (you can download java with following commands. Note //... are comments and should not be put into the terminal)**
 {% highlight bash %}
 brew tap caskroom/cask // install cask
 brew cask install java // install Java
 brew cask info java    // verify which java version has been installed
 {% endhighlight %}
 
+<a name="main"></a>
 ## A simple Client-Server program using Java Socket
-Compile Client.java and Server.java (note //... are comments and should not put into the terminal):
+Compile Client.java and Server.java (see attached codes). Note //... are comments and should not be put into the terminal:
 {% highlight bash %}
 javac *.java // compile files end with .java and will generate Client.class and Server.class files
 java Server // start Server
 java Client // open another terminal and start Client
 {% endhighlight %}
 
-After Server and Client has been successfully setup, you can input any words from the client terminal (input string "Over" to stop the client-server connection), and they will appear on the server terminal.
+After Server and Client has been successfully setup, input any words from the client terminal (input string "Over" to stop the client-server connection), and they will appear on the server terminal.
 
-[Reference](https://www.geeksforgeeks.org/socket-programming-in-java/)
-* Client.java
+<a name="codes"></a>
+## Codes ([reference](https://www.geeksforgeeks.org/socket-programming-in-java/))
+<details><summary>Client.java</summary>
+<p>
 {% highlight java %}
 // A Java program for a client
 import java.net.*;  // import all java class files contained in java.net path
@@ -95,8 +103,11 @@ public class Client{
   }
 }
 {% endhighlight %}
+</p>
+</details>
 
-* Server.java
+<details><summary>Server.java</summary>
+<p>
 {% highlight java %}
 // A Java program for a Server
 import java.net.*;
@@ -161,3 +172,5 @@ public class Server
     }
 }
 {% endhighlight %}
+</p>
+</details>

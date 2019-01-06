@@ -1,0 +1,64 @@
+<project>
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>lingbozhang.github.io</groupId>
+   <artifactId>Netty-example-01</artifactId>
+   <version>1.0</version>
+
+   <dependencies>
+     <dependency>
+       <groupId>io.netty</groupId>
+       <artifactId>netty-all</artifactId>
+       <version>4.0.34.Final</version>
+     </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+          <artifactId>maven-assembly-plugin</artifactId>
+          <version>2.4</version>
+          <executions>
+              <execution>
+                  <id>build-server</id>
+                  <configuration>
+                      <appendAssemblyId>false</appendAssemblyId>
+                      <archive>
+                          <manifest>
+                              <mainClass>com.shengwang.demo.NettyServer</mainClass>
+                          </manifest>
+                      </archive>
+                      <descriptorRefs>
+                          <descriptorRef>jar-with-dependencies</descriptorRef>
+                      </descriptorRefs>
+                      <finalName>${project.artifactId}-NettyServer</finalName>
+                  </configuration>
+                  <phase>package</phase>
+                  <goals>
+                      <goal>single</goal>
+                  </goals>
+              </execution>
+              <execution>
+                  <id>build-client</id>
+                  <configuration>
+                      <appendAssemblyId>false</appendAssemblyId>
+                      <archive>
+                          <manifest>
+                              <mainClass>com.shengwang.demo.NettyClient</mainClass>
+                          </manifest>
+                      </archive>
+                      <descriptorRefs>
+                          <descriptorRef>jar-with-dependencies</descriptorRef>
+                      </descriptorRefs>
+                      <finalName>${project.artifactId}-NettyClient</finalName>
+                  </configuration>
+                  <phase>package</phase>
+                  <goals>
+                      <goal>single</goal>
+                  </goals>
+              </execution>
+          </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
