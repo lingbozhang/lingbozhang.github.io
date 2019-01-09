@@ -13,4 +13,5 @@ ctags -R
 chmod 755 <script_file_name>
 {% endhighlight %}
 * Step 3: Add script file path to .zshrc (export PATH=$PATH:script_directory)
-* [Reference](http://linuxcommand.org/lc3_wss0010.php)
+* [Reference 1](http://linuxcommand.org/lc3_wss0010.php)
+* [Reference 2](https://www.gnu.org/software/bash/manual/bashref.html#Bash-Conditional-Expressions)
