@@ -1,78 +1,28 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="fb:app_id" content="671657696349259" />
-  
-    <!--  Chirico: 
-  
-           Make updates in _config.yml (like resume updates)
-  
-     -->
-  
-    
-    <!--  Chirico: icon Headers   START  -->
-  
-    <link rel="apple-touch-icon" sizes="57x57" href="https://storage.googleapis.com/montco-stats/myfav/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="https://storage.googleapis.com/montco-stats/myfav/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="https://storage.googleapis.com/montco-stats/myfav/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="https://storage.googleapis.com/montco-stats/myfav/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="https://storage.googleapis.com/montco-stats/myfav/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="https://storage.googleapis.com/montco-stats/myfav/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="https://storage.googleapis.com/montco-stats/myfav/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="https://storage.googleapis.com/montco-stats/myfav/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://storage.googleapis.com/montco-stats/myfav/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="https://storage.googleapis.com/montco-stats/myfav/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://storage.googleapis.com/montco-stats/myfav/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="https://storage.googleapis.com/montco-stats/myfav/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://storage.googleapis.com/montco-stats/myfav/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="https://storage.googleapis.com/montco-stats/myfav/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-  
-  
-  
-    <script src="https://unpkg.com/kotlin-playground@1"></script>
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      KotlinPlayground('.kotlin-playground');
-    });
-    </script>
-    
-    <!--  Chirico: icon Headers   END  -->  
-  
-  
-    <!--  Chirico: custom style    
-  
-      gsutil cp -r default gs://montco-stats/syntaxcode2/
-      gsutil cp -r coy gs://montco-stats/syntaxcode2/
-      gsutil cp -r okaidia gs://montco-stats/syntaxcode2/
-  
-    -->
-    
-    <link href="https://storage.googleapis.com/montco-stats/syntaxcode2/default/prism.css" rel="stylesheet">
-    <script src="https://storage.googleapis.com/montco-stats/syntaxcode2/default/prism.js"></script>
-  
-    <!--  Chirico: custom style END -->    
-    
-    <!--  Chirico: Add Custom Headers    -->
+  <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+  <meta charset="{{ site.encoding }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="author" content="{{ page.author | default: site.author | escape}}">
+  <meta name="generator" content="Jekyll v{{ jekyll.version }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/index.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/classes.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ site.style | default: "default" | prepend: "/assets/css/" | append: ".css" | relative_url }}">
+  {% if site.plugins contains "jekyll-feed" %}<link rel="alternate" type="application/atom+xml" href="{{ "/feed.xml" | relative_url }}" title="{{ site.title }}" />{% endif %}
+  {% if page.mathjax or site.mathjax %}
+  <link rel="stylesheet" href="{{ "/assets/katex/katex.min.css" | relative_url }}">
+  <script defer src="{{ "/assets/katex/katex.min.js" | relative_url }}"></script>
+  <script defer src="{{ "/assets/katex/contrib/mathtex-script-type.min.js" | relative_url }}"></script>
+  {% endif %}
+  {% if site.comments.disqus %}<script src="//{{ site.comments.disqus }}.disqus.com/embed.js" async></script>{% endif %}
+  {% if site.comments.isso %}<script data-isso="http://{{ site.comments.isso }}" src="//{{ site.comments.isso }}/js/embed.min.js"></script>{% endif %}
+
+    <!--  lingbozhang: vis tool    -->
     {% if page.jsarr %}
       <script src="https://storage.googleapis.com/montco-stats/javascript/vis-4.17.0/dist/vis.js" type="text/javascript"></script>
       <link href="https://storage.googleapis.com/montco-stats/javascript/vis-4.17.0/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
       <link href="https://storage.googleapis.com/montco-stats/javascript/vis-4.17.0/dist/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" />
-  
-      
     {% endif %}
-    <!--  Chirico: Done custom          -->
-  
-    
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  
-    <link href="https://storage.googleapis.com/montco-stats/css/syntax.css" rel="stylesheet">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    <!--  lingbozhang: vis tool         -->
   </head>
