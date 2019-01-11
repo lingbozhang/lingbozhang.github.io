@@ -1,4 +1,3 @@
-
   // create an array with nodes
   var nodes = new vis.DataSet([
     {id: 1, label: 'Check Kaggle'},
@@ -33,3 +32,4 @@
   };
   var options = {};
   var network = new vis.Network(container, data, options);
+
