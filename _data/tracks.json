@@ -1,0 +1,30 @@
+{
+   "main": [
+       {"text": "a", "children" : [
+           {"text": "aa" },
+           {"text": "ab" }
+           ]},
+       {"text": "b", "children": [
+           {"text": "ba", "children": [
+               {"text": "baa" },
+               {"text": "bab" },
+               {"text": "bac" }
+               ] },
+           {"text": "bb", "children": [
+               {"text": "bba" },
+               {"text": "bbb" },
+               {"text": "bbc" }
+               ]},
+           {"text": "bc", "children": [
+               {"text": "bca"},
+               {"text": "bcb"}
+               ]},
+           {"text": "bd" },
+           {"text": "be" }
+           ]},
+       {"text": "d" },
+       {"text": "e"},
+       {"text": "f" },
+       {"text": "g" }
+   ] 
+}

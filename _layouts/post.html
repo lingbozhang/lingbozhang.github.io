@@ -16,6 +16,15 @@ layout: default
   <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   {% endif %}
 </article>
+    <!-- Stuff for jsarr tag  -->
+
+    {% for js in page.jsarr %}
+      <script type="text/javascript">
+	       {% include {{ js }} %}
+      </script>
+    {% endfor %}
+
+      <!-- End Stuff for jsarr tag  -->
 {% if site.post_footer %}
 {% if page.previous.url or page.next.url %}
 <footer>
