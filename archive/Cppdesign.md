@@ -7,10 +7,10 @@ title: "Archive"
 {% highlight C++ %}
 class A {
 public:
-    A(T resource):_resource(resource){}
+    A(T* resource):_resource(resource){}
     ~A(){delete _resource};
 private:
-    _resource;
+    T* _resource;
 };
 {% endhighlight %}
 
