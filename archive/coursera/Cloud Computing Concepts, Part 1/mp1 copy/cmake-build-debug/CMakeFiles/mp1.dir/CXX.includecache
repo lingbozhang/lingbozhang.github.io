@@ -1,0 +1,98 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/EmulNet.h
+stdincludes.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/stdincludes.h
+Params.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/Params.h
+Member.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/Member.h
+
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/Log.h
+stdincludes.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/stdincludes.h
+Params.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/Params.h
+Member.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/Member.h
+
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/MP1Node.cpp
+MP1Node.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/MP1Node.h
+
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/MP1Node.h
+stdincludes.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/stdincludes.h
+Log.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/Log.h
+Params.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/Params.h
+Member.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/Member.h
+EmulNet.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/EmulNet.h
+Queue.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/Queue.h
+
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/Member.h
+stdincludes.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/stdincludes.h
+
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/Params.h
+stdincludes.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/stdincludes.h
+Params.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/Params.h
+Member.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/Member.h
+
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/Queue.h
+stdincludes.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/stdincludes.h
+Member.h
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/Member.h
+
+/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/stdincludes.h
+stdio.h
+-
+math.h
+-
+string.h
+-
+stdlib.h
+-
+assert.h
+-
+time.h
+-
+stdarg.h
+-
+unistd.h
+-
+fcntl.h
+-
+execinfo.h
+-
+signal.h
+-
+iostream
+-
+vector
+-
+map
+-
+string
+-
+algorithm
+-
+queue
+-
+fstream
+-
+

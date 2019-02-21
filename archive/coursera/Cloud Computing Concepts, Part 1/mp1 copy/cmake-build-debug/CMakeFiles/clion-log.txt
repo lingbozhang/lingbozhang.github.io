@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/lingbozh/Desktop/Github/lingbozhang.github.io/archive/coursera/Cloud Computing Concepts, Part 1/mp1/cmake-build-debug
