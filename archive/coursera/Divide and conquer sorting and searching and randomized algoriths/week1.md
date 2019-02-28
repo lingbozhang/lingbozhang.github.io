@@ -19,3 +19,6 @@ T(n)&=O(n^dlogn) \quad\text{if}\quad a=b^d\\
     &=O(n^{log_b a}) \quad\text{if}\quad a>b^d
 \end{aligned}
 \end{align}
+
+
+$n!\ge(\dfrac{n}{2})^(\dfrac{n}{2})$
